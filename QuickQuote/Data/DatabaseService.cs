@@ -1,6 +1,6 @@
 ﻿namespace QuickQuote.Data
 {
-    public class DatabaseEntryService
+    public class DatabaseService
     {
 
     }

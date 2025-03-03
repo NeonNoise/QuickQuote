@@ -1,4 +1,6 @@
-﻿namespace QuickQuote.Data
+﻿using System.Text;
+
+namespace QuickQuote.Data
 {
     public class DatabaseEntry
     {
@@ -68,5 +70,34 @@
             HasVolumeDiscount = hasVolumeDiscount;
             FlatPrice = flatPrice;
             }
+
+        public override string ToString()
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+
+            stringBuilder.AppendLine(ProductCode);
+            stringBuilder.AppendLine(ProductName);
+            stringBuilder.AppendLine(ProductFriendlyName);
+            stringBuilder.AppendLine(ProductCategory);
+            if (HasVolumeDiscount)
+            {
+                stringBuilder.AppendLine("Y");
+                stringBuilder.AppendLine(VolumeMin.ToString());
+                stringBuilder.AppendLine(VolumeMax.ToString());
+            }
+            else
+            {
+                stringBuilder.AppendLine("N");
+                stringBuilder.AppendLine();
+                stringBuilder.AppendLine();
+            }
+            stringBuilder.AppendLine(FlatPrice.ToString());
+            if(Bump != 0)
+            {
+                stringBuilder.AppendLine(Bump.ToString());
+            }
+
+            return stringBuilder.ToString();
+        }
     }
 }

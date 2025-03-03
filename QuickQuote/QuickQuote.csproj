@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CSV Files\" />
+    <Folder Include="wwwroot\csv-files\" />
   </ItemGroup>
 
 </Project>
