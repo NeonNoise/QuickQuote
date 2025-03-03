@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickQuote", "QuickQuote\QuickQuote.csproj", "{EF7D1660-1B93-4344-883A-E27DB5034181}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF7D1660-1B93-4344-883A-E27DB5034181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7D1660-1B93-4344-883A-E27DB5034181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7D1660-1B93-4344-883A-E27DB5034181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7D1660-1B93-4344-883A-E27DB5034181}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ADCD307-C95B-4BA8-AA7F-030E52A086E1}
+	EndGlobalSection
+EndGlobal
